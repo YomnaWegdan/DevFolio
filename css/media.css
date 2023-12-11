@@ -1,0 +1,62 @@
+@media only screen and (max-width:1200px) {  
+    .card-info p {
+        width: 90% !important;
+    }
+}
+/* ----------------------------------- */
+@media only screen and (max-width:992px){
+    .navbar-collapse {
+        background-color: white;
+    }
+    .navbar-collapse ul li a{
+        color: #555 !important;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    header{
+        font-size: 12px;
+    }
+    .menu{
+        position: static !important;
+    }
+    .nav-item .nav-link:hover::after {
+        opacity: 0;
+    }
+    .nav-link:hover{
+        color:#0078FF !important;
+    }
+
+}
+/* ----------------------------------- */
+
+@media only screen and (max-width:768px){
+    .about .container {
+       padding-inline: 20px  !important;
+    }
+    
+    .contact .contact-overlay{
+        padding: 30px 16px !important;
+    }
+    .contact .container{
+        padding: 30px 20px !important;
+    }
+}
+/* ----------------------------------- */
+@media only screen and (max-width:600px){
+    .about .container {
+       width: 95% !important;
+    }
+    .about .container img{
+        width: 40% !important; 
+    }
+    .about .container ul{
+        padding: 0 !important;
+    }
+}
+
+
+
+

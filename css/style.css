@@ -1,0 +1,224 @@
+
+.sub-menu:hover .menu {
+    display: block;
+  }
+  html{
+    /* scroll-padding-top: 500px; */
+
+  }
+  
+body{
+    font-family: 'Roboto', sans-serif;
+    scroll-padding-top: -200px;
+}
+
+header{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+h1{
+    font-size: 4em;
+}
+.w-85{
+    width: 85%;
+}
+.w-65{
+    width: 65%;
+}
+.w-90{
+    width: 90%;
+}
+.w-3{
+    width: 3%;
+}
+.w-150{
+    width: 150px;
+}
+.w-40{
+    width: 40px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-12{
+    font-size: 12px;
+}
+li{line-height: 36px;}
+
+.nav-item a{
+    position: relative;
+    top: 0;
+}
+.nav-item .nav-link::after  {
+    content: '';
+    background-color: white;
+    width:80%;
+    height: 2px;
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: .5s all;
+    border: 0;
+
+}
+.nav-item .nav-link:hover::after {
+    opacity: 1;
+    left: 50%;
+}
+.bg-nav{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+.nav-pills .nav-link.active::after, .nav-pills .show>.nav-link::after {
+    opacity: 1 !important;
+    left: 50% !important;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent !important;
+}
+
+
+.navbar .dropdown ul li a:hover {
+    color: #0078FF !important;
+    background-color: transparent !important;
+}
+
+header p:after{
+    content: "|";
+    animation: animation 12s infinite alternate-reverse;
+    font-size: 2.5em;
+}
+@keyframes animation {
+    0%{content: 'D|';}
+    2%{content: 'De|'}
+    4%{content: 'Des|'}
+    8%{content: 'Desi|';}
+    10%{content: 'Desig|';}
+    12%{content: 'Design|';}
+    14%{content: 'Designe|';}
+    18%{content: 'Designer|';}
+    20%{content: 'Designe|';}
+    22%{content: 'Design|';}
+    24%{content: 'Desig|';}
+    26%{content: 'Desi|';}
+    28%{content: 'Des|'}
+    32%{content: 'De|'}
+    34%{content: 'D|'}
+    36%{content: 'De|'}
+    38%{content: 'Dev|'}
+    40%{content: 'Deve|';}
+    42%{content: 'Devel|';}
+    44%{content: 'Develo|';}
+    46%{content: 'Develop|';}
+    48%{content: 'Develope|';}
+    50%{content: 'Developer|';}
+    52%{content: 'Develope|';}
+    54%{content: 'Develop|';}
+    56%{content: 'Develo|';}
+    58%{content: 'Devel|';}
+    60%{content: 'Deve|';}
+    62%{content: 'Dev|';}
+    64%{content: 'De|';}
+    66%{content: 'D|';}
+    68%{content: '|';}
+    70%{content: 'F|';}
+    72%{content: 'Fr|';}
+    74%{content: 'Fre|';}
+    76%{content: 'Free|';}
+    78%{content: 'Freel|';}
+    80%{content: 'Freela|';}
+    82%{content: 'Freelan|';}
+    84%{content: 'Freelanc|';}
+    86%{content: 'Freelance|';}
+    88%{content: 'Freelancer|';}
+    90%{content: 'Freelance|';}
+    92%{content: 'Freelanc|';}
+    93%{content: 'Freelan|';}
+    94%{content: 'Freela|';}
+    95%{content: 'Freel|';}
+    96%{content: 'Free|';}
+    97%{content: 'Fre|';}
+    98%{content: 'Fr|';}
+    99%{content: 'F|';}
+    100%{content: '|';}
+}
+
+ .line{
+    height: 3px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-width: 8px !important;
+    transition: all .5s;
+}
+.item:hover .icon{
+    color: white;
+    background-color: #0078FF;
+    border-color:#CDE1F8 !important ;
+}
+
+.experience{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.exp-icon{
+    width: 90px;
+    height: 90px;
+    border-width: 10px !important;
+    transition: all .5s;
+}
+
+.portfolio .card img{
+    transition: .7s all;
+}
+.portfolio .card:hover img{
+    transform: scale(1.2);
+   
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.card-info , .contact{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.blog .card img , .blog .card span{
+    cursor: pointer;
+}
+.blog .card h5{
+    transition: .5s all;
+    cursor: pointer;
+}
+.blog .card h5:hover{
+    color: #0078FF;
+}
+.social-icon li{
+    transition: .5s all;
+}
+.social-icon li:hover{
+    color: white;
+    background-color: #0062D3;
+    border-color:  #CDE1F8 !important;
+}
+footer{
+    background-color: #0062D3;
+}
+
+
